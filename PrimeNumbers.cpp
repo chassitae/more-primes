@@ -51,8 +51,8 @@ int getNum(){
     while (!cin || num < 1){
         cin.clear();
         cin.ignore(100, '\n');
-        cout << "\nInvalid input: must be a number greater than 2.\n"
-             << "Re-enter a number greater than 2:\t";
+        cout << "\nInvalid input: must be a number greater than 1.\n"
+             << "Re-enter a number greater than 1:\t";
         cin >> num;
     }
     return num;
